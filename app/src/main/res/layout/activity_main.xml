@@ -10,11 +10,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.appniche.datepickerexample.MainActivity">
 
-    <DatePicker
+
+    <TextView
+        android:text="DD/MM/YYYY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:id="@+id/datePicker2" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="Choose Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="62dp"
+        android:id="@+id/button" />
 </RelativeLayout>
